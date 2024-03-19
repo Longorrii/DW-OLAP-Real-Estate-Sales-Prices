@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32413.511
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{D2ABAB84-BF74-430A-B69E-9DC6D40DDA17}") = "SSAS_ChennaiHousing", "SSAS_ChennaiHousing\SSAS_ChennaiHousing.dwproj", "{5335A422-C888-409F-9B46-D495E1915470}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5335A422-C888-409F-9B46-D495E1915470}.Development|Default.ActiveCfg = Development
+		{5335A422-C888-409F-9B46-D495E1915470}.Development|Default.Build.0 = Development
+		{5335A422-C888-409F-9B46-D495E1915470}.Development|Default.Deploy.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0057D787-A2DD-4B3D-8C2E-BC34896B938A}
+	EndGlobalSection
+EndGlobal

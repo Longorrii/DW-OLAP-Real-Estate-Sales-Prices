@@ -1,0 +1,117 @@
+﻿<DeploymentSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Target>
+    <Database>SSAS_ChennaiHousing</Database>
+    <Server>YVY-DESKTOP\MSSQLSERVER2019</Server>
+    <ConnectionString>Data Source=YVY-DESKTOP\MSSQLSERVER2019;Timeout=0</ConnectionString>
+  </Target>
+  <Options>
+    <TransactionalDeployment>false</TransactionalDeployment>
+    <PartitionDeployment>DeployPartitions</PartitionDeployment>
+    <RoleDeployment>DeployRolesRetainMembers</RoleDeployment>
+    <ProcessingOption>DoNotProcess</ProcessingOption>
+    <OutputScript></OutputScript>
+    <ImpactAnalysisFile></ImpactAnalysisFile>
+    <ConfigurationSettingsDeployment>Deploy</ConfigurationSettingsDeployment>
+    <OptimizationSettingsDeployment>Deploy</OptimizationSettingsDeployment>
+    <WriteBackTableCreation>UseExisting</WriteBackTableCreation>
+  </Options>
+  <Snapshot>
+    <ObjectSnapshots>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
+        <TimeStamp>D6P2/EdOu3AKCjiz/segmXIlyUQ=31/05/2023 5:36:53 PM31/05/2023 1:01:54 PM</TimeStamp>
+        <ID>
+          <String>WH</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>c/v8rpfHxUoPJPol8xYkbwPwOvI=31/05/2023 1:02:03 PM31/05/2023 1:02:03 PM</TimeStamp>
+        <ID>
+          <String>WH</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>1TbXl8pmKAY/gs1qlQl7lE/BEfU=31/05/2023 1:03:13 PM31/05/2023 1:02:12 PM</TimeStamp>
+        <ID>
+          <String>Dim Sale Time</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>VTq+72Oulk9HBPwXQJ++trS7UKg=31/05/2023 1:03:13 PM31/05/2023 1:02:12 PM</TimeStamp>
+        <ID>
+          <String>Dim Built Time</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>aGgNsOn52BvFS3Eyh1f4D1IZgPI=31/05/2023 1:02:13 PM31/05/2023 1:02:12 PM</TimeStamp>
+        <ID>
+          <String>Dim Condition</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>9sYN4Svcfl5sHyOzjPA3unervPo=31/05/2023 1:02:13 PM31/05/2023 1:02:12 PM</TimeStamp>
+        <ID>
+          <String>Dim Type</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>YHqoKgBgjW0poD7XwgNQtfaZdAE=31/05/2023 1:03:13 PM31/05/2023 1:02:12 PM</TimeStamp>
+        <ID>
+          <String>Dim Quality Score</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>pUERYPXXVrp+J0RIByQbLRW7s9A=31/05/2023 1:03:13 PM31/05/2023 1:02:12 PM</TimeStamp>
+        <ID>
+          <String>Dim Area</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>QL++fI8v5UlkNmdOlZHoyVHmDtw=31/05/2023 1:02:13 PM31/05/2023 1:02:12 PM</TimeStamp>
+        <ID>
+          <String>Dim Utility</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>6PEBYEOTlyTZgfH7FWev0AVW+rM=31/05/2023 1:03:13 PM31/05/2023 1:02:13 PM</TimeStamp>
+        <ID>
+          <String>Dim Property</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>dWlAaQCw1uLBUw5EctNSG1OUEis=31/05/2023 1:02:13 PM31/05/2023 1:02:13 PM</TimeStamp>
+        <ID>
+          <String>Dim Street</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>1aIPZMkS5+i9Y043IOg94SWR5no=31/05/2023 1:03:13 PM31/05/2023 1:02:12 PMemAYvLClcv3EbrEmxazp9ZFGr6s=31/05/2023 1:02:13 PM31/05/2023 1:02:12 PM</TimeStamp>
+        <ID>
+          <String>WH</String>
+        </ID>
+      </ObjectSnapshot>
+    </ObjectSnapshots>
+    <DatabaseSnapshot>
+      <Type>Microsoft.AnalysisServices.Database</Type>
+      <TimeStamp>h1A9gt2SNfHLRis34/zOgKzKpNY=31/05/2023 12:58:20 PM31/05/2023 12:58:20 PM</TimeStamp>
+      <ID>
+        <String>SSAS_ChennaiHousing</String>
+      </ID>
+    </DatabaseSnapshot>
+    <Granularity>Coarse</Granularity>
+  </Snapshot>
+  <AssemblyLocations />
+  <ProcessingComplete>true</ProcessingComplete>
+  <LastDeployed>2023-05-31T10:37:02.48Z</LastDeployed>
+</DeploymentSnapshot>
